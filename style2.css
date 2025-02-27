@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.note{
+ margin-top: 40px;
+    display: flex;
+    justify-content: center;
+     
+}
+.note p{
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    color: red;
+    font-size: 18px; 
+}
+
+.table-div {
+    min-height: 200px;
+    max-width: 1200px;
+    margin-inline: auto;
+    border: 2px solid black;
+    margin-top: 2%;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+table{
+    margin-top: 20px;
+}
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 3px;
+}
+table input{
+    text-align: center;
+}
+
+.add {
+    display: block;
+    align-items: center;
+    border-radius: 5px;
+    padding: 4px;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    color: rgb(13, 74, 154);
+    background-color: rgb(5, 252, 252);
+}
+
+.result-div{
+    max-width: 120px;
+    min-height: 30px;
+    display: block;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+   background-color: white;
+}
+
+
+
+.delete-btn{
+    background-color: rgb(208, 90, 90);
+}
+
+
+.div-calculation{
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+}
+.calculation{
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: lightgreen;
+    box-shadow: 10px 10px 13px rgb(39, 37, 37); 
+    margin-bottom: 10px; 
+}
+.calculation:hover{
+   color: rgb(16, 28, 16);
+   background-color: rgb(59, 189, 59);
+}
+
+
+.sr,.subject,.maximum-marks,.obtained-marks,.credit-of-sub,.btn{
+    height: 20px;
+    width: 100px;
+}
+
+
+td {
+    width: 80px; 
+    height: 25px;
+}
+
+
+table input {
+    width: 100%; 
+    padding: 2px; 
+    text-align: center; 
+}
+
+ .btn button {
+
+  width: 100%;
+  padding: 2px;
+} 
+
